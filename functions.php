@@ -10,7 +10,8 @@
 <?php
   echo "php functions";
   echo "<br>";
-
+  
+  // functions in php
   function greet($fname, $lname) {
     echo "Hello " . $fname . " " . $lname;
   }
