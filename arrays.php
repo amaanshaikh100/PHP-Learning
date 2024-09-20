@@ -8,8 +8,9 @@
 <body>
 
 <?php
+// arrays 
   $fruits = array("apple", "wateremlon", "pineapple", "grapes");
-  array_push($fruits, "orange", "kiwi", "lemon");
+  array_push($fruits, "orange", "kiwi", "lemon"); // array methods
 
   foreach($fruits as $fruit) {
     echo "$fruit <br>";
