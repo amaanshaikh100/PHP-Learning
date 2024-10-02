@@ -8,15 +8,18 @@
 <body>
 
 <?php
-// arrays 
-  $fruits = array("apple", "wateremlon", "pineapple", "grapes");
-  array_push($fruits, "orange", "kiwi", "lemon"); // array methods
+  // arrays 
+  $students = array("amaan", "moin", "mahira");
+  array_push($students, "madiha");
+  
 
-  foreach($fruits as $fruit) {
-    echo "$fruit <br>";
+  foreach($students as $student) {
+    echo "Student: " . $student;
+    echo "<br>";
   }
 
-  // print_r($fruits);
+  echo $students[0];
+
 ?>
   
 </body>
